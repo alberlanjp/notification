@@ -17,9 +17,9 @@ require __DIR__. '/librarys/autoload.php';
 
 USE Notification\Email;
 
-$ mail = new Email (2, "mail.host.com", "your@email.com", "your pass", "smtp secure (tls/ssl)", "from@email.com", "From the name");
+$mail = new Email(2, "mail.host.com", "your@email.com", "your pass", "smtp secure (tls/ssl)", "from@email.com", "From the name");
 
-$ email-> sendEmail ("Subject", "Content", "reply@email.com", "Repetition Name", "address@email.com", "Address Name");
+$email->sendEmail("Subject", "Content", "reply@email.com", "Repetition Name", "address@email.com", "Address Name");
 ```
 
 Note that the entire email setting is being used by the magic method builder! Once the builder is invoked within your application, your system will be able to execute the shots.
