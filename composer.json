@@ -1,0 +1,30 @@
+{
+    "name": "alberlan/notification",
+    "description": "This is a library that uses composer as the basis for generating email notifications",
+    "type": "library",
+    "license": "mit",
+    "authors": [
+        {
+            "name": "Alberlan Costa Rodrigues",
+            "email": "alberlancr.dev@gmail.com",
+            "role": "Devoloper"
+        },
+        {
+            "name": "Heitor",
+            "email": "alberlancr.dev@gmail.com",
+            "role": "Devoloper"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "phpmailer/phpmailer": "6.0.7"
+    },
+    "config": {
+        "vendor-dir": "librarys"    
+    },
+    "autoload": {
+        "psr-4": {
+            "Notification\\": "_app"
+        }
+    }
+}
