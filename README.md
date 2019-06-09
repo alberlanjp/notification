@@ -13,7 +13,7 @@ To make use of the library, simply require the autoload of the composer, invoke 
 ```sh
 <? php
 
-require __DIR__. '/librarys/autoload.php';
+require __DIR__ . '/librarys/autoload.php';
 
 USE Notification\Email;
 
